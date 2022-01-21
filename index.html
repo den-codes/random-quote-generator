@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Quote Generator</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Quote Container -->
+    <div class="quote-container" id="quote-container">
+        <div class="quote-wrapper" id="quote-box">
+            <span class="quote" id="text"><i class="fas fa-quote-left"></i>You shine so bright, the stars are jelaous of you</span>
+            <span class="author" id="author">Unknown</span>
+        </div>
+    <!--Buttons-->
+        <div class="buttons" id="buttons">
+            <button class="new-quote" id="new-quote">
+                <svg width="100px" height="50px" viewBox="0 0 100 50" class="border">
+                    <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
+                    <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
+                  </svg>
+                <span>New Quote</span></button>
+            <button class="twitter-btn" id="tweet-quote" title="Tweet this!"><i class="fab fa-twitter"></i></button>
+        </div>
+    </div>
+    <div class="loader" id="loader"></div> 
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+</html>
